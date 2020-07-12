@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/stand-in/end_day_tipka.png" type="Texture" id=1]
+[ext_resource path="res://assets/stand-in/rupa_label.png" type="Texture" id=2]
+
+[node name="Home" type="Node2D"]
+
+[node name="rupa_label" type="Sprite" parent="."]
+position = Vector2( 287.433, 64.7912 )
+texture = ExtResource( 2 )
+
+[node name="end_day" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="end_day_tipka" type="TextureButton" parent="end_day"]
+margin_left = 481.926
+margin_top = 294.527
+margin_right = 609.926
+margin_bottom = 326.527
+texture_normal = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
