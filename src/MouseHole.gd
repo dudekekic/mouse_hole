@@ -1,4 +1,6 @@
 extends Control
 
-func _on_btnEndDay_pressed():
-	get_tree().change_scene("res://src/levels/Kuhinja_main.tscn")
+
+
+func _on_btnEndDay_pressed() -> void:
+	get_tree().change_scene("res://src/levels/KitchenMain.tscn")
