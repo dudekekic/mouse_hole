@@ -1,7 +1,7 @@
 extends Node
 
 onready var timer = get_node("Timer")
-onready var node = get_parent()
+onready var node = get_parent().get_parent()
 onready var time = node.LEVEL_TIME
 signal timeOut
 
